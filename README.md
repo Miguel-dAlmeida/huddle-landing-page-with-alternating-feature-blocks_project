@@ -30,7 +30,7 @@
   <img src="./src/images/gif_final_page_landing-page-huddle_mobile.gif" alt="Gif do resultado final da página">
 </div>
 
-### [Acesse a página clicando aqui!](https://miguel-dalmeida.github.io/bento-grid_project/) 
+### [Acesse a página clicando aqui!](https://miguel-dalmeida.github.io/huddle-landing-page-with-alternating-feature-blocks_project/) 
 
 ## **Apresentação**
 
