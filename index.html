@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Preloads -->
+    <link rel="preload" href="./src/images/bg-hero-desktop.svg" as="image">
+    <link rel="preload" href="./src/images/bg-hero-mobile.svg" as="image">
+    <link rel="preload" href="./src/images/logo.svg">
+    <link rel="preload" href="./src/images/illustration-mockups.svg" as="image">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+
+
+    <!-- Poppins font and Open Sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+</head>
+
+
+<body>
+    <header class="header" role="banner">
+        <nav class="header__navigation" aria-label="Primary navigation">
+            <a href="#">
+                <img class="header__huddle-logo" src="./src/images/logo.svg" alt="Huddle logo">
+            </a>
+            <a class="header__navigation-button btn--default" href="#">Try It Free</a>
+        </nav>
+
+        <section class="header__content">
+            <div class="header__content-text-container">
+                <h1 class="header__title">Build The Community Your Fans Will Love</h1>
+                <p class="header__paragraph">Huddle re-imagines the way we build communities. You have a voice, but so
+                    does your audience.
+                    Create connections with your users as you engage in genuine discussion. </p>
+                <a class="header__content-button btn--default" href="#">Get Started For Free</a>
+            </div>
+
+            <div class="header__content-image-container">
+                <img class="header__image" src="./src/images/illustration-mockups.svg"
+                    alt="Illustration showing the interface of an online community platform on different devices: a desktop computer displaying a window with social interaction elements such as colorful buttons and text lines, and a smartphone presenting a more compact version of the same interface with profile icons.">
+            </div>
+        </section>
+    </header>
+
+
+
+    <main class="main" role="main">
+        <section class="main__feature">
+            <div class="main__feature-content">
+                <h2 class="main__feature-title">Grow Together</h2>
+                <p class="main__feature-paragraph">Generate meaningful discussions with your audience and build a
+                    strong, loyal
+                    community.
+                    Think of the insightful conversations you miss out on with a feedback form.</p>
+            </div>
+            <div class="main__feature-image-container">
+                <img class="main__feature-image" src="./src/images/illustration-grow-together.svg"
+                    alt="Two people, a man and a woman, interacting with floating charts and visual information, representing growth and discussion in an online community."
+                    loading="lazy">
+            </div>
+        </section>
+
+        <section class="main__feature main__feature--reverse">
+
+            <div class="main__feature-content">
+                <h2 class="main__feature-title">Flowing Conversations</h2>
+                <p class="main__feature-paragraph">You wouldn't paginate a conversation in real life, so why do it
+                    online? Our
+                    threads
+                    have just-in-time loading for a more natural flow.</p>
+            </div>
+            <div class="main__feature-image-container">
+                <img class="main__feature-image" src="./src/images/illustration-flowing-conversation.svg"
+                    alt="Four people sitting around an outdoor table, engaged in a lively conversation, symbolizing a natural flow of communication."
+                    loading="lazy">
+            </div>
+        </section>
+
+        <section class="main__feature">
+            <div class="main__feature-content">
+                <h2 class="main__feature-title">Your Users</h2>
+                <p class="main__feature-paragraph">It takes no time at all to integrate Huddle with your app's
+                    authentication
+                    solution.
+                    This means, once signed in to your app, your users can start chatting immediately.</p>
+            </div>
+            <div class="main__feature-image-container">
+                <img class="main__feature-image" src="./src/images/illustration-your-users.svg"
+                    alt="Three people interacting with chat windows and user profiles, illustrating the seamless integration of new users into a communication platform."
+                    loading="lazy">
+            </div>
+        </section>
+
+
+        <section class="main__cta" aria-labelledby="cta-heading">
+            <h2 class="main__cta-title" id="cta-heading">Ready To Build Your Community?</h2>
+            <a class="main__cta-button btn--default" href="#">Get Started For Free</a>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <a href="#">
+            <img class="footer__huddle-logo" src="./src/images/logo.svg" alt="Huddle logo">
+        </a>
+
+        <section class="footer__section">
+            <address class="footer__contact-information">
+                <div class="footer__localization">
+                    <img class="footer__icon" src="./src/images/icon-location.svg" alt="Location icon" loading="lazy">
+                    <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                </div>
+                <div class="footer__telephone">
+                    <img class="footer__icon" src="./src/images/icon-phone.svg" alt="Telephone icon" loading="lazy">
+                    <p class="footer__text">+1-543-123-4567</p>
+                </div>
+                <div class="footer__email">
+                    <img class="footer__icon" src="./src/images/icon-email.svg" alt="Email icon" loading="lazy">
+                    <p class="footer__text">example@huddle.com</p>
+                </div>
+            </address>
+
+            <nav class="footer__navigation" aria-label="Footer links">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">About Us</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Career</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">What We Do</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Blog</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">FAQ</a></li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer__social-links">
+                <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                        <a href="#" aria-label="Visit our Facebook page">
+                            <i class="footer__social-icon fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" aria-label="Visit our Twitter page">
+                            <i class="footer__social-icon fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a href="#" aria-label="Visit our Instagram page">
+                            <i class="footer__social-icon fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <div class="footer__page-credits">
+            <p><small>&copy; Copyright 2018 Huddle. All rights reserved.</small></p>
+        </div>
+
+        <div class="footer__author-credits">
+            <p>
+                <small>
+                    Challenge by&nbsp;<a
+                        href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa"
+                        target="_blank" translate="no">Frontend Mentor</a>. Coded by&ensp;<a
+                        href="https://www.linkedin.com/in/m%C3%A1rio-miguel-de-almeida-741291285/" target="_blank"
+                        translate="no">Mário
+                        Miguel de Almeida</a>.
+                </small>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
