@@ -252,10 +252,10 @@ html {
         display: -ms-flexbox;
         display: flex;
 
-        &:is(.footer__contact-information, .footer__navigation) {
+        & :is(.footer__contact-information, .footer__navigation) {
             margin-right: 13%;
         }
-
+        
         & .footer__contact-information {
             & * {
                 display: -webkit-box;
