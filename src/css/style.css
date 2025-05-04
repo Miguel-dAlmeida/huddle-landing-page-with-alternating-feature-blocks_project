@@ -285,7 +285,7 @@ html {
                 }
 
                 & .footer__icon {
-                    width: min(0.8vw, 1.3rem);
+                    width: min(0.8vw, 1.5rem);
 
                 }
             }
